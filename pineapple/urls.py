@@ -18,6 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("youtube/", include("youtube.urls"), name="youtube"),
     path("", include("computergrid.urls"), name="computergrid"),
     ]
